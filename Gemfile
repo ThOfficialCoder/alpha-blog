@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 ruby "3.3.6"
 
+gem "sqlite3"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.1"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
@@ -31,6 +33,8 @@ gem "optimist"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+gem "bootstrap", "~> 5.3.0"
+gem 'dartsass-rails'
 
 # Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
 gem "kamal", require: false
